@@ -3,20 +3,21 @@ Privesc from low-privileged user to NT-AUTORITY\SYSTEM
 
 The rubber ducky script will :
 
-Disable AV
+⋅⋅* Disable AV
 
-Download LocalPotato
+⋅⋅* Download LocalPotato
 
-Download SprintCSP.dll that will open a command prompt with NT-AUTORITY\SYSTEM privileges
+⋅⋅* Download SprintCSP.dll that will open a command prompt with NT-AUTORITY\SYSTEM privileges
 
-Copy SprintCSP.dll to C:\Windows\System32\ using LocalPotato
+⋅⋅* Copy SprintCSP.dll to C:\Windows\System32\ using LocalPotato
 
-Download RpcClient.exe
+⋅⋅* Download RpcClient.exe
 
-Run RpcClient.exe that will trigger the DLL
+⋅⋅* Run RpcClient.exe that will trigger the DLL
 
 
 To do :
-Add a slow version for slow computers and test it.
 
-Add a privesc version from Administrator to NT-AUTORITY\SYSTEM
+⋅⋅* Add a slow version for slow computers and test it.
+
+⋅⋅* Add a privesc version from Administrator to NT-AUTORITY\SYSTEM
