@@ -1,5 +1,5 @@
 REM Author: BrancoBoushi
-REM Description: Disables Windows Defender and use localpotato to exploit SprintCSP.dll and elevate to NT-AUTORITY/SYSTEM on Windows 10
+REM Description: Disables Windows Defender and use localpotato to exploit SprintCSP.dll and elevate to NT-AUTHORITY\SYSTEM on Windows 11
 REM Version: 1.0
 REM Category: Privilege Escalation
 WINDOWS r
