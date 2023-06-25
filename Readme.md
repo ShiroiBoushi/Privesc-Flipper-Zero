@@ -3,7 +3,7 @@ Privesc from low-privileged user to NT-AUTORITY\SYSTEM
 
 The rubber ducky script will :
 
-⋅⋅* Disable AV
+* Disable AV
 
 ⋅⋅* Download LocalPotato
 
