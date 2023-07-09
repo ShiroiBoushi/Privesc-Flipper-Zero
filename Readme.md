@@ -9,7 +9,7 @@ The rubber ducky script will :
 
 * Download SprintCSP.dll that will open a command prompt with NT-AUTORITY\SYSTEM privileges
 
-* Copy SprintCSP.dll to C:\Windows\System32\ using LocalPotato
+* Copy SprintCSP.dll in SYSTEM PATH writable place (C:\Windows\System32\) using LocalPotato
 
 * Download RpcClient.exe
 
